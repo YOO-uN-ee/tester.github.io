@@ -7,20 +7,12 @@ import {
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
-interface BlogPostCardPropsType {
-  img: string;
-  title: string;
-  desc: string;
-  date: string;
-  url: string;
-}
-
 function BlogPostCard({
   img,
   title,
   desc,
   url,
-}: BlogPostCardPropsType) {
+}) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-8 h-56">
@@ -59,21 +51,21 @@ function BlogPostCard({
 const posts = [
   {
     img: "aboutus.jpg",
-    title: "About Us Page",
-    desc: "Designed to introduce the website's purpose and encourage the user to take an action.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/about",
+    title,
+    desc,
+    url,
   },
   {
     img: "signin.jpg",
-    title: "Sign In Page",
-    desc: "It's designed to provide the user with all the necessary information for a secure login.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/login",
+    title,
+    desc,
+    url,
   },
   {
     img: "404.jpg",
-    title: "404 Error Page",
-    desc: "If you're looking for essential information to make a decision, our website has it all - just not on this page.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/404",
+    title,
+    desc, our website has it all - just not on this page.",
+    url,
   },
 ];
 
@@ -95,7 +87,7 @@ export function BlogSectionThree() {
           </div>
 
           <div className="grid grid-cols-1 items-start gap-y-16 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
-            {posts.map(({ img, author, date, title, desc, url, tags }: any) => (
+            {posts.map(({ img, author, date, title, desc, url, tags }) => (
               <BlogPostCard
                 key={title}
                 img={img}

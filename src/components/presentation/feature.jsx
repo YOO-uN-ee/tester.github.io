@@ -29,25 +29,22 @@ const features = [
     icon: (
       <img className="w-32 mx-auto mb-4" src="icon1.png" />
     ),
-    title: "For Designers",
-    description:
-      "This template comes packed with designer files based on Figma.",
+    title,
+    description,
   },
   {
     icon: (
       <img className="w-32 mx-auto mb-4" src="icon2.png" />
     ),
-    title: "For Developers",
-    description:
-      "Save months of work when you use our fully coded components and pages.",
+    title,
+    description,
   },
   {
     icon: (
       <img className="w-32 mx-auto mb-4" src="icon3.png" />
     ),
-    title: "For Store Owners",
-    description:
-      "Save time and money by helping your team focus on customization and features.",
+    title,
+    description,
   }
 ];
 

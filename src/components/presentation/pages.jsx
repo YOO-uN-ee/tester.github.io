@@ -9,20 +9,12 @@ import ThemeProvider from "../theme-provider";
 import { color } from "@material-tailwind/react/types/components/chip";
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 
-interface BlogPostCardPropsType {
-  img: string;
-  title: string;
-  desc: string;
-  date: string;
-  url: string;
-}
-
 function BlogPostCard({
   img,
   title,
   desc,
   url,
-}: BlogPostCardPropsType) {
+}) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-8 h-56">
@@ -60,21 +52,21 @@ function BlogPostCard({
 const posts = [
   {
     img: "/landing-page.jpg",
-    title: "Landing Page",
-    desc: "Designed to introduce the website's purpose and encourage the user to take an action.",
-    url: "/landing",
+    title,
+    desc,
+    url,
   },
   {
     img: "/dashboard-page.jpg",
-    title: "Dashboard Page",
-    desc: "It's designed to give the user all the information they need to make a purchase decision",
-    url: "/dashboard",
+    title,
+    desc,
+    url,
   },
   {
     img: "billing-page.jpg",
-    title: "Billing Page",
-    desc: "Includes a summary of the items in the cart and a form for billing and shipping information.",
-    url: "/billing",
+    title,
+    desc,
+    url,
   },
 ];
 
@@ -96,7 +88,7 @@ export function BlogSectionThree() {
           </div>
 
           <div className="grid grid-cols-1 items-start gap-y-16 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
-            {posts.map(({ img, author, date, title, desc, url, tags }: any) => (
+            {posts.map(({ img, author, date, title, desc, url, tags }) => (
               <BlogPostCard
                 key={title}
                 img={img}

@@ -1,13 +1,4 @@
 
-interface Props {
-  bgImage: string;
-  title: string;
-  description: string;
-  filterColor: string;
-  titleColor: string;
-  descriptionColor: string;
-}
-
 export default function PageHeader({
   bgImage,
   title,
@@ -15,7 +6,7 @@ export default function PageHeader({
   filterColor,
   titleColor,
   descriptionColor
-}: Props) {
+}) {
 
   const filter = "mask " + filterColor;
   const h1Color = "mb-2 " + titleColor;

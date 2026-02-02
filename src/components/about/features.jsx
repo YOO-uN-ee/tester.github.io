@@ -9,13 +9,7 @@ import {
   HeartIcon,
 } from "@heroicons/react/24/solid";
 
-interface FeatureCardProps {
-  icon: React.ReactNode;
-  title: string;
-  children: React.ReactNode;
-}
-
-function FeatureCard({ icon, title, children }: FeatureCardProps) {
+function FeatureCard({ icon, title, children }) {
   return (
     <Card color="transparent" shadow={false}>
       <CardBody className="grid justify-center text-center">
@@ -42,41 +36,35 @@ function FeatureCard({ icon, title, children }: FeatureCardProps) {
 const features = [
   {
     icon: <EyeIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Check our team",
-    description:
-      "For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one",
+    title,
+    description, if you were the only one",
   },
   {
     icon: (
       <ChatBubbleOvalLeftEllipsisIcon className="h-6 w-6" strokeWidth={2} />
     ),
-    title: "Support 24/7",
-    description:
-      "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others.",
+    title,
+    description, our hearts turn colder. Cause pain is what we go through",
   },
   {
     icon: <BoltIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Unlimited revisions",
-    description:
-      "We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love.",
+    title,
+    description,
   },
   {
     icon: <FaceSmileIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Payments functionality",
-    description:
-      "Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+    title,
+    description, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
   },
   {
     icon: <LinkIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Improved platform",
-    description:
-      "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too.",
+    title,
+    description, too.",
   },
   {
     icon: <HeartIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Prebuilt components",
-    description:
-      "We're an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
+    title,
+    description, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
   },
 ];
 

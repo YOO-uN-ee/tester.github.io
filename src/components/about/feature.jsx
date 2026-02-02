@@ -6,11 +6,7 @@ import {
   ArrowRightIcon,
 } from "@heroicons/react/24/outline";
 
-interface IconPropsType {
-  children: React.ReactNode;
-}
-
-function Icon({ children }: IconPropsType) {
+function Icon({ children }) {
   return (
     <div className="mb-6 grid h-12 w-12 place-items-center rounded-full bg-dark p-2.5 text-white shadow-md">
       {children}

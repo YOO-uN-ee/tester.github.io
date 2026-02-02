@@ -6,91 +6,91 @@ const YEAR = new Date().getFullYear();
 const SOCIAL_MEDIA = [
   {
     icon: "fab fa-twitter",
-    link: "https://www.twitter.com/creativetim?ref=astrolaunch-ui",
+    link,
   },
   {
     icon: "fab fa-facebook-square",
-    link: "https://www.facebook.com/creativetim?ref=astrolaunch-ui",
+    link,
   },
   {
     icon: "fab fa-dribbble",
-    link: "https://www.dribbble.com/creativetim?ref=astrolaunch-ui",
+    link,
   },
   {
     icon: "fab fa-github",
-    link: "https://www.github.com/creativetimofficial?ref=astrolaunch-ui",
+    link,
   },
   {
     icon: "fab fa-discord",
-    link: "https://discord.com/invite/gxtg2rJa?ref=astrolaunch-ui",
+    link,
   },
 ];
 
 const COMPANY = [
   {
     name: "About Us",
-    link: "https://www.creative-tim.com/presentation?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Blog",
-    link: "https://www.creative-tim.com/blog?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Github",
-    link: "https://github.com/creativetimofficial?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Free Products",
-    link: "https://www.creative-tim.com/templates/free?ref=astrolaunch-ui",
+    link,
   },
 ];
 
 const HELP = [
   {
     name: "Knowledge Center",
-    link: "https://www.creative-tim.com/knowledge-center?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Contact Us",
-    link: "https://www.creative-tim.com/contact-us?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Premium Support",
-    link: "https://www.creative-tim.com/support-terms?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Pricing",
-    link: "/#pricing",
+    link,
   },
 ];
 
 const RESOURCES = [
   {
     name: "Documentation",
-    link: "https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Custom Development",
-    link: "https://www.creative-tim.com/services/updivision?ref=astrolaunch-ui",
+    link,
   },
   {
     name: "Discord",
-    link: "https://discord.gg/WCvQWMwT",
+    link,
   },
   {
     name: "Tailwind Components",
-    link: "https://tailwindcomponents.com/?ref=astrolaunch-ui",
+    link,
   },
 ];
 
 const TECHS = [
   {
     name: "React",
-    link: "#",
+    link,
   },
   {
     name: "Astro",
-    link: "#",
+    link,
   },
 ];
 

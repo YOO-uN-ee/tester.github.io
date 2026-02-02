@@ -6,12 +6,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-interface CategoriesCardPropsType {
-  img: string;
-  category: string;
-}
-
-function CategoriesCard({ img, category }: CategoriesCardPropsType) {
+function CategoriesCard({ img, category }) {
   return (
     <Card
       shadow={false}
@@ -42,19 +37,19 @@ function CategoriesCard({ img, category }: CategoriesCardPropsType) {
 const categories = [
   {
     img: "https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    category: "Electronics",
+    category,
   },
   {
     img: "https://images.unsplash.com/photo-1542845476-351174c0a0f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-    category: "New Arrivals",
+    category,
   },
   {
     img: "https://images.unsplash.com/photo-1554116154-e733de92fe4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-    category: "Accessories",
+    category,
   },
   {
     img: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-    category: "Sale",
+    category,
   },
 ];
 

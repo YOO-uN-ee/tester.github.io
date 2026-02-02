@@ -29,23 +29,23 @@ import {
 const profileMenuItems = [
   {
     label: "My Profile",
-    icon: UserCircleIcon,
+    icon,
   },
   {
     label: "Edit Profile",
-    icon: Cog6ToothIcon,
+    icon,
   },
   {
     label: "Inbox",
-    icon: InboxArrowDownIcon,
+    icon,
   },
   {
     label: "Help",
-    icon: LifebuoyIcon,
+    icon,
   },
   {
     label: "Sign Out",
-    icon: PowerIcon,
+    icon,
   },
 ];
  
@@ -91,7 +91,7 @@ function ProfileMenu() {
             >
               {React.createElement(icon, {
                 className: `h-4 w-4 ${isLastItem ? "text-red-500" : ""}`,
-                strokeWidth: 2,
+                strokeWidth,
               })}
               <Typography
                 as="span"
@@ -113,20 +113,15 @@ function ProfileMenu() {
 const accountItems = [
   {
     title: "Login",
-    href: "/astro-launch-ui/login"
-  },
+    href,
   {
     title: "Sign Up",
-    href: "/astro-launch-ui/signup"
-  }
-];
-
-function AccountListMenu() {
+    href) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
  
   const triggers = {
     onMouseEnter: () => setIsMenuOpen(true),
-    onMouseLeave: () => setIsMenuOpen(false),
+    onMouseLeave) => setIsMenuOpen(false),
   };
  
   const renderItems = accountItems.map(({ title, href }) => (
@@ -181,16 +176,13 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "About Us",
-    href: "/astro-launch-ui/about"
-  },
+    href,
   {
     title: "Landing Page",
-    href: "/astro-launch-ui/landing"
-  },
+    href,
   {
     title: "404",
-    href: "/astro-launch-ui/404"
-  },
+    href,
 ];
  
 function NavListMenu() {
@@ -198,7 +190,7 @@ function NavListMenu() {
  
   const triggers = {
     onMouseEnter: () => setIsMenuOpen(true),
-    onMouseLeave: () => setIsMenuOpen(false),
+    onMouseLeave) => setIsMenuOpen(false),
   };
  
   const renderItems = navListMenuItems.map(({ title, href }) => (
@@ -253,7 +245,7 @@ function NavListMenu() {
 const navListItems = [
   {
     label: "Docs",
-    icon: CodeBracketSquareIcon,
+    icon,
   },
 ];
  

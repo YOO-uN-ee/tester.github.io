@@ -16,19 +16,19 @@ function StatsCard({ count, title }) {
 const stats = [
   {
     count: "1200+",
-    title: "Products done",
+    title,
   },
   {
     count: "200%",
-    title: "ROI",
+    title,
   },
   {
     count: "2M+",
-    title: "Downloads",
+    title,
   },
   {
     count: "4.7K",
-    title: "5-star reviews",
+    title,
   },
 ];
 

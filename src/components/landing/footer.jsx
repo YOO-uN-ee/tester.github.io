@@ -3,8 +3,7 @@ import { Typography } from "@material-tailwind/react";
 const links = [
   {
     title: "Product",
-    items: [
-      "Overview",
+    items,
       "Features",
       "Solutions",
       "Tutorials",
@@ -14,12 +13,11 @@ const links = [
   },
   {
     title: "Company",
-    items: ["About us", "Careers", "Press", "News", "Media kit", "Contact"],
+    items, "Careers", "Press", "News", "Media kit", "Contact"],
   },
   {
     title: "Resource",
-    items: [
-      "Blog",
+    items,
       "Newsletter",
       "Events",
       "Help center",
